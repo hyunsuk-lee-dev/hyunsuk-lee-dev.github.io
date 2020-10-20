@@ -4,6 +4,7 @@ title: Advanced
 description: >
   This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.
 hide_description: true
+sitemap: false
 ---
 
 This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.
@@ -159,7 +160,7 @@ The rules are as follows:
 * Every line that isn't contained in a block and ends with `// link` will be linked
 * Every line for which none of the above applies will be included in both.
 
-The actual splitting happen with the `.scripts/build-css.sh` script (requires node.js 8+).
+The actual splitting happen with the `_scripts/build-css.sh` script (requires node.js 8+).
 You can run the script once by using
 
 ~~~bash
@@ -185,5 +186,3 @@ to your config file.
 
 
 *[FLIP]: First Last Invert Play
-
-<clap-button></clap-button>

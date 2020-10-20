@@ -5,6 +5,7 @@ description: >
   How you install Hydejack depends on whether you start a new site,
   or change the theme of an existing site.
 hide_description: true
+sitemap: false
 ---
 
 How you install Hydejack depends on whether you [start a new site](#new-sites), 
@@ -196,9 +197,9 @@ $ bundle exec jekyll serve
 
 and point your browser to <http://localhost:4000> to see Hydejack in action.
 
-<clap-button></clap-button>
 
 Continue with [Config](config.md){:.heading.flip-title}
 {:.read-more}
+
 
 [upgrade]: upgrade.md
