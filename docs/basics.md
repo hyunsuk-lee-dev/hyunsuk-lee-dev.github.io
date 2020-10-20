@@ -4,7 +4,6 @@ title: Basics
 description: >
   This chapter covers the basics of content creation with Hydejack.
 hide_description: true
-sitemap: false
 ---
 
 This chapter covers the basics of content creation with Hydejack.
@@ -201,7 +200,7 @@ Some content
 ## Adding a cover page
 Hydejack 8 introduces cover pages, i.e. pages witht he sidebar opened, so that it spans the entire screen. This feature is intended for landing pages. To enable it on a page, simply add `cover: true` to the front matter.
 
-![Cover page example](../assets/img/blog/hydejack-8@0,5x.png){:width="960" height="540"}
+![Cover page example](../assets/img/blog/hydejack-8@0,5x.png){:.lead width="960" height="540" loading="lazy"}
 
 ~~~yml
 # file: `index.md`
@@ -564,6 +563,7 @@ For best results, check the following options in the print popup:
 
 ![Uncheck Headers and footers, check Background graphics](/assets/img/docs/chrome-print.png){:width="299" height="588" loading="lazy"} -->
 
+<clap-button></clap-button>
 
 Continue with [Writing](writing.md){:.heading.flip-title}
 {:.read-more}
