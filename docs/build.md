@@ -4,7 +4,6 @@ title: Build
 description: >
   This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.
 hide_description: true
-sitemap: false
 ---
 
 This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.
@@ -85,6 +84,8 @@ More on [user, organization, and project pages](https://help.github.com/articles
 
 <!-- Continue with [Advanced](advanced.md){:.heading.flip-title}
 {:.read-more} -->
+
+<clap-button></clap-button>
 
 [deploy]: https://jekyllrb.com/docs/deployment-methods/
 [lsa]: https://en.wikipedia.org/wiki/Latent_semantic_analysis

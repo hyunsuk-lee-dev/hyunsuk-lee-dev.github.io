@@ -4,7 +4,6 @@ title: Upgrade
 description: >
   This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
 hide_description: true
-sitemap: false
 ---
 
 This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
@@ -55,6 +54,7 @@ For the most part you have to [follow the steps for the installation](./install.
 Keep in mind that, if you've made changes to any theme files, they will be overwritten! That includes the various `my-*` files that are recommended for customization.
 Make sure you don't override them accidentally (you can use git to restore them).
 
+<clap-button></clap-button>
 
 Continue with [Config](config.md){:.heading.flip-title}
 {:.read-more}
