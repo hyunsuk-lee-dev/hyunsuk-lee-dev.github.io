@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://LazyRen.github.io
+url:                   https://leehs27.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -46,14 +46,14 @@ logo:                  https://graph.facebook.com/100007955266112/picture?type=l
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                DaeIn Lee
-  email:               daein0lee@gmail.com
+  name:                H Lee
+  email:               h@gmail.com
   picture:  /assets/img/seattle.png
   social:
-    linkedin:        daein-lee-3b6ba9139
-    github:          lazyren
-    stackoverflow:   4294737
-    email:           daein0lee@gmail.com
+    #linkedin:        daein-lee-3b6ba9139
+    #github:          lazyren
+    #stackoverflow:   4294737
+    #email:           daein0lee@gmail.com
     resume:          /resume/
 
 # Add links to the sidebar.
@@ -176,11 +176,11 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      UA-68290006-3
+# google_analytics:      UA-68290006-3
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                lazyrengithub
+# disqus:                lazyrengithub
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -343,7 +343,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
+# google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
