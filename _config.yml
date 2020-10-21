@@ -82,9 +82,7 @@ permalink:             /blog/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /page-:num/
-excerpt_separator:     <!--more-->
-
+paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
@@ -197,7 +195,7 @@ hydejack:
   project_addons:      [about, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+  no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -268,10 +266,10 @@ hydejack:
     always:            true
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
+    dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              false
+    icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -423,8 +421,3 @@ compress_html:
 sass:
   style:               compressed
 
-# jekyll-feed settings
-feed:
-  categories:
-    - devlog
-    - review
