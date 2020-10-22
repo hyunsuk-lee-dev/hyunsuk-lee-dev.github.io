@@ -1,4 +1,4 @@
-.dl-table {
+.dl-able {
   a {
     @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
       text-underline-offset: .7rem;
@@ -13,4 +13,4 @@
   }
 }
 
-@font-face { font-family: 'HSBombaram3_Regular'; src: url('https://github.com/projectnoonnu/noonfonts_20-10/blob/main/HSBombaram3_Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'headline'; src: url('/assets/fonts/headline.woff') format('woff'); font-weight: normal; font-style: normal; }
