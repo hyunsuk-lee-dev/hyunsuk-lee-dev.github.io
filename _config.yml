@@ -158,10 +158,10 @@ defaults:
       seo:
         type:          WebPage
 
-kramdown:
-  math_engine:         katex
-  math_engine_opts:    {}
-  footnote_backlink:   '&#x21a9;&#xfe0e;'
+# kramdown:
+#   math_engine:         katex
+#   math_engine_opts:    {}
+#   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 
 # 3rd Party Integrations
