@@ -20,7 +20,7 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko-kr
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Hydejack
@@ -45,14 +45,13 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                HS Lee
-  email:               hslee@gmail.com
+  name:                Hyunsuk Lee
+  email:               leehs27th@gmail.com
   social:
-    #linkedin:        daein-lee-3b6ba9139
-    #github:          lazyren
-    #stackoverflow:   4294737
-    #email:           daein0lee@gmail.com
-    resume:          /resume/
+    github:          leehs27
+    email:           leehs27th@gmail.com
+    velog:           leehs27
+    # resume:          /resume/
 
 # Add links to the sidebar.
 menu:

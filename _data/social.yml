@@ -209,3 +209,7 @@ download:
 resume:
   name: Resume
   icon: icon-profile
+velog:
+  name: Velog
+  icon: icon-velog
+  prepend: "https://velog.io/@"

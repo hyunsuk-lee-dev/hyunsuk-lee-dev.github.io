@@ -2,8 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              HS Lee
-  email:             hslee@gmail.com
+  name:              Hyunsuk Lee
+  email:             leehs27th@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,9 +26,10 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    # twitter:         <username>
+    github:          leehs27
+    email:           leehs27th@gmail.com
+    velog:           leehs27
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
