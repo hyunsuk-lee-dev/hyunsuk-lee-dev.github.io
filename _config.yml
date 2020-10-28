@@ -23,7 +23,7 @@
 lang:                  ko-kr
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 하람이네 개발자
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -112,7 +112,7 @@ font:                  Noto Sans KR, Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          S-CoreDream-7ExtraBold, Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          YiSunShinDotumM, Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
