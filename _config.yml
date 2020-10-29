@@ -23,19 +23,20 @@
 lang:                  ko-kr
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 하람이네 개발자
+title:                 하람이 아빠는 개발자
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  개발과 육아, 그리고 신앙에 관한 간단한 이야기들을 적어놓은 블로그입니다. 
 
 # A shorter description for the sidebar.
-tagline:               신생아 하람이의 초보 아빠이자, 2년차 초보 개발자, 자라나는 크리스천입니다.
+tagline:               |
+  아빠이자 개발자로, <br/>
+  또 그리스도인으로 살아가는 날들.
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [개발, 프로그래밍, 육아, 기독교]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -55,10 +56,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             개발
+    url:               /Programming/
+  - title:             육아
+    url:               /Parenting/
+  - title:             기독교
+    url:               /Christian/
   - title:             About
     url:               /about/
 
@@ -73,10 +76,10 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. All rights reserved.
+copyright:             '`haram.Dad() == new Programmer(3)`'
 
 # Format of the permalinks
-permalink:             /blog/:categories/:year-:month-:day-:title/
+permalink:             /:categories/:year-:month-:day-:title/
 
 
 # Pagination configuration (used by the `blog` layout)
@@ -290,7 +293,7 @@ collections:
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /tag/:name/
     output:            true
 
   projects:
