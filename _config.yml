@@ -76,7 +76,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             '`haram.Dad() == new Programmer(3)`'
+copyright:             "`haram.Dad() == new Programmer<Christ>();`"
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/

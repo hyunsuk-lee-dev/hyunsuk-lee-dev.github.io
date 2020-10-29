@@ -33,42 +33,42 @@ present:               present
 toc:                   Table of Contents
 note:                  Note
 description:           Description
-search:                검색
-search_placeholder:    검색어를 입력하세요…
+search:                Search
+search_placeholder:    Type something…
 
-loading:               로딩중…
-redirecting:           이동중…
+loading:               Loading…
+redirecting:           Redirecting…
 
 continue_reading:      >
-  <!--post_title-->를 계속해서 읽어보세요.
+  Continue reading <!--post_title-->
 
 cookies_banner:
   text:                >
-    웹사이트를 원활하게 표시하기 위해 쿠키를 사용합니다. [Cookies Policy](/cookies-policy/).
-  okay:                네
+    This site uses cookies. [Cookies Policy](/cookies-policy/).
+  okay:                Okay
 
 not_found:
-  title:               '404: 페이지를 찾을 수 없습니다.'
+  title:               '404: Page Not Found'
   message:             |
-    죄송합니다. 찾으시려는 페이지가 제거되었거나, 변경되었습니다.
-    <!--home_link--> 로 돌아가 다시 확인해주세요.
-  home_link:           메인페이지
+    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+    <!--home_link--> to try finding it again.
+  home_link:           Head back home
 
 offline:
-  title:               '당신은 오프라인 상태입니다.'
+  title:               'You are Offline'
   message:             |
-    죄송합니다. 해당 페이지는 오프라인 상태에서는 제공되지 않습니다. 
-    <!--home_link--> 로 돌아가 다른 페이지를 찾아주세요.
-  home_link:           메인페이지
+    Sorry, but you appear to be offline and this page has not been prepared for offline viewing.
+    <!--home_link--> to try finding another page.
+  home_link:           Head back home
 
 error:
-  title:               오류
+  title:               Error
   message:             |
-    죄송합니다. <!--link--> 페이지를 로딩하는데 오류가 발생했습니다. 
+    Sorry, an error occurred while loading <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted:                '작성됨'
+posted:                'Posted'
 colon:                 ':'
 separator:             '|'
 category_start:        'in '
@@ -80,8 +80,8 @@ from_to_separator:     '–'
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%Y %b %d'
-  related_post:        '%Y %b %d'
+  post:                '%d %b %Y'
+  related_post:        '%d %b %Y'
   list_group_by:       '%Y'
   list_entry:          '%d %b'
   project:             '%Y'
