@@ -57,11 +57,11 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             개발
-    url:               /Programming/
+    url:               /programming/
   - title:             육아
-    url:               /Parenting/
+    url:               /parenting/
   - title:             기독교
-    url:               /Christian/
+    url:               /christian/
   - title:             About
     url:               /about/
 
