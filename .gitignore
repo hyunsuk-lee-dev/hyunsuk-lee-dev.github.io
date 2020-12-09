@@ -47,5 +47,5 @@ vendor/bundle
 *.gem
 _zip
 /stats.json
-
+DeprecatedPost/
 #<removed>
