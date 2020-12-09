@@ -1,12 +1,11 @@
 ---
-title: "CustomEditor"
-categories:
-  - Dev
-tags:
-  - Unity
-  - Editor
-last_modified_at: 2019-03-25T17:30:52-05:00
+layout: post
+title: CustomEditor 활용하기
+tags: [Unity, Editor]
 ---
+
+* toc
+{:toc .large-only}
 
 ## CustomEditor 기능은 언제 필요할까요.  
 
@@ -15,7 +14,7 @@ Unity에서 테스트를 할 때, 유용하게 사용할 수 있는 것이 바�
 
 구현 코드는 매우 간단합니다.  
 
-{% highlight c#  linenos %}
+~~~c#
 //TestScript.cs
 
 using UnityEngine;  
@@ -27,16 +26,16 @@ public class TestScript : MonoBehaviour
     
     public void MoveForwardSample()
     {
-        sample.Translate( transform.forward * 3f );
+        sample.Translate(transform.forward * 3f);
     }
 
     public void MoveRightSample()
     {
-        sample.Translate( transform.right * 3f );
+        sample.Translate(transform.right * 3f);
     }
 }
 
-[CustomEditor( typeof( TestScript ) )]
+[CustomEditor(typeof(TestScript))]
 public class TestScriptCustomEditor : Editor
 {
     TestScript script;
@@ -50,21 +49,21 @@ public class TestScriptCustomEditor : Editor
     {
         base.OnInspectorGUI();
 
-        if ( GUILayout.Button( "Forward" ) )
+        if(GUILayout.Button("Forward"))
         {
             script.MoveForwardSample();
         }
-        else if ( GUILayout.Button( "Right" ) )
+        else if(GUILayout.Button("Right"))
         {
             script.MoveRightSample();
         }
     }
 }
-{% endhighlight %}  
+~~~ 
 
 위와 같이 만든 스크립트를 GameObject에 붙이면  
 
-![Inspector]({{ site.url }}{{ site.baseurl }}/assets/image/2-1.png){: .align-center}
+![Inspector](/assets/img/post/2019-03-25-CustomEditor/Inspector.png "Custom Inspector")
 
 위와 같은 Inspector를 볼 수 있습니다. 물론 Inspector에서 버튼을 누르면 Object가 동작하게 됩니다.  
 
@@ -72,19 +71,19 @@ public class TestScriptCustomEditor : Editor
 
 CustomEditor를 사용할 때 주의해야 할 점은, 두번째 줄에 보이는 것 처럼 UnityEditor 네임스페이스를 사용했는데, 이는 Editor에서만 존재하는 네임스페이스입니다. 즉 이는 빌드를 할 시에 오류를 유발합니다.  
 
-![Error]({{ site.url }}{{ site.baseurl }}/assets/image/2-2.png){: .align-center}
+![Error](/assets/img/post/2019-03-25-CustomEditor/EditorError.png "Editor Error"){:.center}
 
 이것을 해결하기 위해서는 2가지 방법이 있습니다.  
-- 첫번째로는 [프리컴파일 코드](https://docs.unity3d.com/kr/2019.1/Manual/PlatformDependentCompilation.html)를 이용해서 해당 코드블럭을 Editor로 한정시키는 것입니다.  
+- 첫번째로는 [프리컴파일 코드](https://docs.unity3d.com/kr/2019.1/Manual/PlatformDependentCompilation.html){:target="_blank"}를 이용해서 해당 코드블럭을 Editor로 한정시키는 것입니다.  
 
-{% highlight c# %}
+~~~c#
 #if UNITY_EDITOR
 //Editor Code
 #endif
-{% endhighlight %}  
+~~~
 
 이렇게하면 #if 문 안에 있는 코드들은 Editor에서는 실행이 되나, 빌드시에는 제외를 시킬 수 있으므로 오류를 해결할 수 있습니다. CustomEditor가 시작되는 21번째 줄 부터 마지막인 44번째줄까지 묶어주고, 또한 그와 같이 네임스페이스 부분인 4번째 줄도 동일하게 해주시면 됩니다.  
 
 - 두번째 방법은 Editor 폴더를 사용하는 방법입니다.  
 
-Unity는 Assets 안에 있는 [폴더들의 이름을 사용하여 특별하게 취급하는 기능](https://docs.unity3d.com/kr/2019.1/Manual/SpecialFolders.html)이 있습니다. 그 중의 하나가 Editor 입니다. Unity는 Editor라는 이름을 가진 폴더 아래에 있는 에셋들은 오직 Editor에서만 사용한다고 취급하여 빌드시에는 제외합니다. 이를 이용하여, 위의 코드중 CustomEditor 부분만을 빼내어서 `TestScriptCustomEditor.cs` 의 이름의 C# 스크립트를 새로 만들어 Editor 폴더 안에 넣어주면 에러를 해결할 수 있습니다.  
+Unity는 Assets 안에 있는 [폴더들의 이름을 사용하여 특별하게 취급하는 기능](https://docs.unity3d.com/kr/2019.1/Manual/SpecialFolders.html){:target="_blank"}이 있습니다. 그 중의 하나가 Editor 입니다. Unity는 Editor라는 이름을 가진 폴더 아래에 있는 에셋들은 오직 Editor에서만 사용한다고 취급하여 빌드시에는 제외합니다. 이를 이용하여, 위의 코드중 CustomEditor 부분만을 빼내어서 `TestScriptCustomEditor.cs` 의 이름의 C# 스크립트를 새로 만들어 Editor 폴더 안에 넣어주면 에러를 해결할 수 있습니다.  
