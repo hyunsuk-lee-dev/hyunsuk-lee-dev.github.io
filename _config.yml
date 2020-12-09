@@ -58,8 +58,8 @@ author:
 menu:
   - title:             개발
     url:               /programming/
-  - title:             육아
-    url:               /parenting/
+  #- title:             육아
+  #  url:               /parenting/
   - title:             기독교
     url:               /christian/
   - title:             About
