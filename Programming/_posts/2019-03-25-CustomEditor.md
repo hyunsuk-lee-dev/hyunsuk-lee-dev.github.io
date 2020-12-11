@@ -2,6 +2,7 @@
 layout: post
 title: CustomEditor 활용하기
 tags: [Unity, Editor]
+image: /assets/img/post/Unity.png
 ---
 
 * toc

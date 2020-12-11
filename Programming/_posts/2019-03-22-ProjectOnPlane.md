@@ -2,6 +2,7 @@
 layout: post
 title: ProjectOnPlane을 활용한 UI의 위치 설정
 tags: [Unity, UI]
+image: /assets/img/post/Unity.png
 ---
 
 * toc

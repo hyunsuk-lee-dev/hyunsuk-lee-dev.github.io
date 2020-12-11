@@ -2,6 +2,7 @@
 layout: post
 title: Interface Handler 활용하기
 tags: [Unity, UI]
+image: /assets/img/post/2019-04-03-InterfaceHandler/Title.png
 ---
 
 * toc
