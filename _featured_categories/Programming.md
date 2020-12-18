@@ -11,7 +11,7 @@ slug: Programming
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   개발의 관한 글들입니다. 주로 `VR`, `Unity`에 관한 개발을 하고 있습니다.
-  
+
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 
