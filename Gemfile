@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 4.1"
+gem "jekyll", "~> 4.1"
 
 # gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 
@@ -27,6 +27,7 @@ source "https://rubygems.org"
 # gem "kramdown-math-katex"
 
 group :jekyll_plugins do
+
   gem "jekyll-default-layout", git: "https://github.com/benbalter/jekyll-default-layout"
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
@@ -38,7 +39,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", git: "https://github.com/hydecorp/jekyll-include-cache"
-  gem "github-pages"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
