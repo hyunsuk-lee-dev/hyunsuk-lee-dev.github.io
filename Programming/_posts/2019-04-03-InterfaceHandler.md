@@ -3,6 +3,8 @@ layout: post
 title: Interface Handler 활용하기
 tags: [Unity, UI]
 image: /assets/img/post/2019-04-03-InterfaceHandler/Title.png
+description: >
+  유니티에서 다양한 기능을 가진 버튼을 만들어봅시다.
 ---
 
 * toc

@@ -3,6 +3,8 @@ layout: post
 title: ProjectOnPlane을 활용한 UI의 위치 설정
 tags: [Unity, UI]
 image: /assets/img/post/Unity.png
+description: >
+  VR의 UI 방향 설정을 위해 ProjectOnPlane 함수를 사용해봅시다.
 ---
 
 * toc

@@ -1,12 +1,15 @@
 ---
 layout: post
-title: SublimeText3에서 Markdown을 pdf로 변환하기
+title: SublimeText3에서 Markdown을 Pdf로 변환하기
 tags: [기타]
 image: /assets/img/post/2021-01-21-MarkdownToPdf/MarkdownLogo.png
+description: >
+  Markdown 파일을 Pdf 파일로 변환하는 과정에 대해 알아봅시다.
 ---
 
 * toc
 {:toc .large-only}
+
 ## Markdown을 왜 Pdf로 변환하죠?
 
 개발자에게 Markdown 은 굉장히 편한 문서 작성 언어가 될 수 있습니다. 일반 워드프로세서들에서는 일일이 마우스로 클릭해줘야하는 제목 및 소제목 구분, 볼드 및 이탤릭, 구분선, 목록과 같은 것들을 키보드 입력으로만 손쉽게 처리할 수 있기 때문입니다. 다만 한 가지 단점은, 해당 문서를 회사의 다른 사람들과 공유할 때(특히 개발자가 아닌 분들), 그들에게는 Markdown 파일이 익숙치 않고, 열기도 힘들다는 점이 있습니다. 이를 위해서 가지고 있는 Markdown 파일을 Pdf 파일로 변환해서 공유하는 것이 바람직합니다.

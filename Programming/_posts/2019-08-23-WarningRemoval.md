@@ -3,6 +3,8 @@ layout: post
 title: Warning 제거하기
 tags: [Unity, Editor]
 image: /assets/img/post/2019-08-23-WarningRemoval/Title.png
+description: >
+  유니티의 불필요한 경고를 제거하는 방법에 대해 알아봅시다.
 ---
 
 * toc

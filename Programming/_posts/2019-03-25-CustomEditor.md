@@ -3,6 +3,8 @@ layout: post
 title: CustomEditor 활용하기
 tags: [Unity, Editor]
 image: /assets/img/post/Unity.png
+description: >
+  유니티에서 Custom Editor를 통해 원하는 기능을 가진 Inspector를 만들어봅시다.
 ---
 
 * toc
@@ -60,7 +62,7 @@ public class TestScriptCustomEditor : Editor
         }
     }
 }
-~~~ 
+~~~
 
 위와 같이 만든 스크립트를 GameObject에 붙이면  
 

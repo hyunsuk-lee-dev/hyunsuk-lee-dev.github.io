@@ -3,6 +3,8 @@ layout: post
 title: 하람이 탄생일지
 tags: [하람]
 image: /assets/img/post/2020-11-02-HaramBorn/11.jpg
+description: >
+  아내의 유도분만 예정일이자 하람이가 태어난 날인 10월 23일 있었던 일들을 간단하게 정리해봤다.
 ---
 
 * toc

@@ -3,6 +3,8 @@ layout: post
 title: 비대면이 만든 새로운 신앙
 tags: [상고, 교회]
 image: /assets/img/post/2020-11-03-PostCorona/Title.png
+description: >
+  코로나가 완전히 종식된 후, 비대면 시대가 지난 후, 교회는 어떻게 바뀌게 될까요.
 ---
 
 * toc
