@@ -182,11 +182,18 @@ abbr {
 
 blockquote {
   @extend .color-transition;
-  padding: .5rem 3rem;
   margin: .8rem 0;
-  // color: var(--gray);
-  // border-left: .25rem solid var(--border-color);
-  position: relative;
+
+  &:not(.em) {
+    padding: .5rem 1rem;
+    color: var(--gray);
+    border-left: .25rem solid var(--border-color);
+  }
+
+  &.em {
+    padding: .5rem 3rem;
+    position: relative;
+  }
 
   &.lead {
     font-weight: 700;
@@ -201,7 +208,7 @@ blockquote {
   }
 }
 
-blockquote::before {
+blockquote.em::before {
   font-family:Arial;
   content: "\201C";
   font-size:5rem;
