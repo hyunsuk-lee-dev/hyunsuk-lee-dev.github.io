@@ -2,7 +2,7 @@
 ilayout: post
 title: '클립보드에 이미지 설정하기'
 tags: [개발]
-image : /assets/img/post/2021-03-29-ClipboardImageSaver/main.jpg
+image : /assets/img/post/2021-03-29-ClipboardImageSaver/Main.jpg
 description: >
   윈도우 클립보드에 원하는 이미지를 설정해서 빠르게 복사 및 붙여넣기를 실행해보자.
 ---
