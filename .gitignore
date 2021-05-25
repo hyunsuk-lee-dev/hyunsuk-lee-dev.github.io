@@ -47,6 +47,7 @@ vendor/bundle
 *.gem
 _zip
 /stats.json
-DeprecatedPost/
+Draft/
+_featured_categories/draft.md
 #<removed>
 *.lnk
