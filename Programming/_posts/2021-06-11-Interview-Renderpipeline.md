@@ -2,7 +2,7 @@
 layout: post
 title: '면접 질문 정리 2 - 렌더 파이프라인'
 tags: [Unity]
-image : /assets/img/post/2021-06-11-Interview-2/main.jpg
+image : /assets/img/post/2021-06-11-Interview-Renderpipeline/main.jpg
 description: >
   두번째로 정리해 볼 면접 질문은 "유니티의 렌더 파이프라인에 대해서" 입니다.
 ---

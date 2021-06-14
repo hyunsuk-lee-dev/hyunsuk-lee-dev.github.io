@@ -2,7 +2,7 @@
 layout: post
 title: '면접 질문 정리 1 - int와 Integer'
 tags: [CS]
-image : /assets/img/post/2021-06-10-Interview-1/main.jpg
+image : /assets/img/post/2021-06-10-Interview-Integer/main.jpg
 description: >
   면접 본 후기와 면접에서 받았던 질문들에 대한 답변을 정리해보는 글입니다.
 ---
