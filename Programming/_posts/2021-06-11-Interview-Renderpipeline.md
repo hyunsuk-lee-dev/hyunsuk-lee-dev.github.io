@@ -15,7 +15,7 @@ description: >
 
 유니티 개발자라면, '렌더파이프라인'이라는 말은 한 번쯤은 들어봤을 것입니다. 저도 듣기도 많이 들어보고 대충 렌더링하는 과정 정도로 알고 있었지만, 면접 질문에서 그렇게 대답할 수는 없었습니다.. 
 
-'렌더 파이프라인'에 대한 [유니티 매뉴얼의 정의](https://docs.unity3d.com/Manual/render-pipelines.html)는 이렇습니다.
+'렌더 파이프라인'에 대한 [유니티 매뉴얼의 정의](https://docs.unity3d.com/Manual/render-pipelines.html){:target="_blank"}는 이렇습니다.
 
 > 씬의 콘텐츠를 가져와 화면에 표시하는 일련의 작업을 수행하는 것. 컬링, 렌더링, 포스트 프로세싱 등을 수행한다.
 {:.em .lead}
