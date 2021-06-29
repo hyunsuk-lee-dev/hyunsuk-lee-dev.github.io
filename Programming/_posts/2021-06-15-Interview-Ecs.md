@@ -4,7 +4,7 @@ title: '면접 질문 정리 4 - ECS와 Job System'
 tags: [Unity]
 image : /assets/img/post/2021-06-15-Interview-Ecs/main.jpg
 description: >
-  유니티의 새로운 
+  유니티의 새로운 기술 스택인 DOTS와 그 안에 ECS와 Job System에 대해 간략히 살펴보겠습니다.
 ---
 
 * toc
@@ -25,7 +25,7 @@ ECS는 앞서 말씀드린 DOTS에서 가장 중요한 요소 중의 하나입�
 
 ECS는 이러한 컴포넌트 구조에서 데이터 레이아웃을 최적화합니다. 기존의 객체 중심으로 관리되던 데이터를 따로 분리해서, 데이터만을 관리하는 시스템을 만든 것입니다. 위에서 얘기한 예시를 코드로 보자면 
 
-```c#
+```csharp
 class Rotator : MonoBehaviour
 {
 	public Quaternion rotateVelocity;

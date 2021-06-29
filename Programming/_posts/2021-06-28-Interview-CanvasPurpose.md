@@ -4,7 +4,7 @@ title: '면접 질문 정리 5 - 캔버스의 목적'
 tags: [Unity]
 image : /assets/img/post/2021-06-28-Interview-CanvasPurpose/main.jpg
 description: >
-  블로그 포스트의 템플릿에 대한 자료입니다.
+  유니티의 Canvas는 왜 있을까요. 다른 일반 물체와 달리 UI 요소들은 왜 Canvas의 자식으로 있어야 할까요?
 ---
 
 * toc

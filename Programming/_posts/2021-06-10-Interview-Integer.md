@@ -68,7 +68,7 @@ int i = integer.intValue();		// Unboxing
 
 이 Nullable 구조체를 일반 자료형으로 변환하기 위해서는 몇 가지 방법이 사용되는데 아래와 같습니다.
 
-```c#
+```csharp
 int? a = 1;
 int b = a.Value;			// a의 값을 가져온다.
 int c = a ?? -1;			// a의 값이 null이 아니라면 a의 값을, null이라면 -1을 반환한다.
@@ -81,7 +81,7 @@ int d = a.GetValueOrDefault();		// a의 값이 null이 아니라면 a의 값을,
 
 두 번째로, C# 에서는 박싱과 언박싱이 [`object`로 구현이 되어있습니다.](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/types/boxing-and-unboxing){:target="_blank"}
 
-```c#
+```csharp
 int i = 1;
 object o = i; // Boxing
 ```
@@ -90,7 +90,7 @@ object o = i; // Boxing
 
 반대로 언박싱을 할 때는 
 
-```c#
+```csharp
 int j = (int)o; // Unboxing
 ```
 
