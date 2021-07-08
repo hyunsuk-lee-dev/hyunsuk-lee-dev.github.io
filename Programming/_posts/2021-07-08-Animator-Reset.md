@@ -2,7 +2,7 @@
 layout: post
 title: '유니티 애니메이터 초기화'
 tags: [Unity]
-image : /assets/img/post/Unity 2021 wide.png
+image : /assets/img/post/Unity2021wide.png
 description: >
   유니티의 애니메이션을 원하는 때에 초기화하는 방법에 대해 알아봅시다.
 ---
