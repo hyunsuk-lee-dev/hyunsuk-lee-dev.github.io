@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Code Managing</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<style>
+			.small {
+			font-size: 0.6em;
+ 			}
+		</style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown data-separator="---" data-separator-vertical="^V:" data-separator-notes="^Note:">
+					<script type="text/template">
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.3" -->
+						## 코드 관리
+
+						---
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						#### 코드 관리의 중요성
+						
+						<br/>
+
+						- 학생 vs 실무자 <!-- .element: class="fragment" -->
+						- 협업할 때 발생 <!-- .element: class="fragment" -->
+
+						---
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						## Git+Github vs Unity Collabo
+
+						V:
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						#### Git+Github
+
+						- 다양한 기능, *특히 Branch* <!-- .element: class="fragment" -->
+						- Diff 별로 관리 가능 <!-- .element: class="fragment" -->
+						- 안정적 <!-- .element: class="fragment" -->
+
+						<br/>
+						<br/>
+
+						#### 강력한 기능 <!-- .element: class="fragment" -->
+
+						V:
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						#### Unity Collabo
+
+						- 별도 설치가 필요없음 <!-- .element: class="fragment" -->
+						- 사용하기 편리 <!-- .element: class="fragment" -->
+
+						<br/>
+						<br/>
+
+						#### 누구나 사용 <!-- .element: class="fragment" -->
+
+						---
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						## Git과 Github
+
+						- 버전 관리 시스템(로컬과 클라우드) <!-- .element: class="fragment" -->
+						- <a href="https://github.com/kuhn0305/NetworkModule" target="_blank">이렇게 씁니다.</a> <!-- .element: class="fragment" -->
+
+						---
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						## 어떻게 쓸 것인가.
+
+						- 아무리 좋은 툴을 써도 잘 쓰지 못하면 의미가 없다. <!-- .element: class="fragment" -->
+						- 툴 < 통일성 <!-- .element: class="fragment" -->
+						
+						---
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						#### 유니티 폴더 구조
+
+						![](img/UnityHierarchy.png) <!-- .element: class="fragment" -->
+
+						- 중복 파일의 방지 <!-- .element: class="fragment" -->
+						- 파일 탐색의 용이함 <!-- .element: class="fragment" -->
+
+						---
+						<!-- .slide: data-background-image="img/Git.jpg" data-background-opacity="0.1" -->
+
+						#### [코드 컨벤션](./CodeConvention.html)
+
+					</script>	
+				</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				width: 1280,
+				height: 720,
+
+				// Factor of the display size that should remain empty around
+				// the content
+				margin: 0.0,
+				controls: true,
+				progress: true,
+				center: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight],
+				disableLayout: false
+			});
+		</script>
+	</body>
+</html>
