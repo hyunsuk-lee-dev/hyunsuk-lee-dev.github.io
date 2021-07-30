@@ -101,7 +101,12 @@ GEM
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -122,6 +127,8 @@ DEPENDENCIES
   jekyll-seo-tag!
   jekyll-sitemap
   jekyll-titles-from-headings
+  tzinfo-data
+  wdm
 
 BUNDLED WITH
    2.1.4
