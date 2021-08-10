@@ -1,26 +1,18 @@
 {% assign disqus = site.disqus | default:site.disqus_shortname %}
+<script src="https://giscus.app/client.js"
+        data-repo="leehs27/leehs27.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzMDM3MTg3NjY="
+        data-category="Giscus"
+        data-category-id="DIC_kwDOEhphbs4B-ncm"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="transparent_dark"
+        crossorigin="anonymous"
+        async>
+</script>
 {% if disqus %}
-<!-- <div id="disqus_thread"></div>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-<script>!function(w, d) {
-  if (d.getElementById("disqus_thread")) {
-    if (w.DISQUS) {
-      w.DISQUS.reset({
-        reload: true,
-        config() {
-          this.page.url = w.location.href;
-          this.page.title = d.title;
-        },
-      });
-    } else {
-      w.disqus_config = function disqusConfig() {
-        this.page.url = w.location.href;
-        this.page.title = d.title;
-      };
-      w.loadJSDeferred(d.getElementById("_hrefDisqus").href + '/embed.js');
-    }
-  }
-}(window, document);</script> -->
+<!-- 
 <div id="disqus_thread"></div>
 <script>
 /**
@@ -41,4 +33,5 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
 {% endif %}
