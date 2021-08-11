@@ -19,3 +19,17 @@
   font-weight: normal; 
   font-style: normal; 
 }
+
+applause-button {
+  width: 90px; 
+  height: 90px; 
+  margin: 60px auto; 
+
+  .count-container {
+    color:inherit;
+  }
+
+  .count { 
+    font-size:1em; 
+  }
+}

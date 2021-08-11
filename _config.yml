@@ -68,15 +68,15 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             LICENSE
+  #   url:               /LICENSE/
+  # - title:             NOTICE
+  #   url:               /NOTICE/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             "`haram.Dad() == new Programmer<Christ>();`"
+copyright:             "`haram.Dad() = new Programmer<Christ>();`"
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -190,7 +190,7 @@ defaults:
 hydejack:
   # Configure the order of complementary content on blog posts
   # post_addons:         [about, newsletter, related, random, comments]
-  post_addons:         [about, comments]
+  post_addons:         [applause, about, comments]
 
   # Configure the order of complementary content on project pages
   # project_addons:      [about, newsletter, other, comments]

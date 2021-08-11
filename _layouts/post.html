@@ -20,14 +20,15 @@ layout: base
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
 <hr class="dingbat related" />
-<applause-button style="width: 90px; height: 90px; margin: 60px auto;" color=var(--accent-color)></applause-button>
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
-{% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
+{% unless addons %}{% assign addons = "about,applause,newsletter,related,random" | split:"," %}{% endunless %}
 {% for addon in addons %}
   {% case addon %}
+  {% when 'applause' %}
+    {% include body/applause.html %}
   {% when 'about' %}
-     {% include_cached components/about.html author=page.author %}
+    {% include_cached components/about.html author=page.author %}
   {% when 'newsletter' %}
     {% include if-non-null try="pro/newsletter.html" %}
   {% when 'related' %}

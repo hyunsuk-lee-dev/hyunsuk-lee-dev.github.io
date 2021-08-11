@@ -25,5 +25,11 @@
 
 {% assign disqus = site.disqus | default:site.disqus_shortname %}
 {% if disqus %}
-<link rel="dns-prefetch" href="https://{{ disqus }}.disqus.com" id="_hrefDisqus">
+  <link rel="dns-prefetch" href="https://{{ disqus }}.disqus.com" id="_hrefDisqus">
+{% endif %}
+
+{% assign addons = page.addons | default:site.hydejack.post_addons %}
+{% if addons contains 'applause' %}
+  <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+  <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 {% endif %}
