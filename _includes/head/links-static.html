@@ -1,7 +1,11 @@
 {% if plugins contains 'jekyll-feed' %}{% include head/feed-tag.html %}{% endif %}
 
+{% include head/favicon.html %}
+
+{% comment %}
 <link rel="shortcut icon"    href="{{ '/assets/icons/favicon.ico'      | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/icons/icon-192x192.png' | relative_url }}">
+{% endcomment %}
 
 <link rel="manifest" href="{{ '/assets/site.webmanifest' | relative_url }}">
 
