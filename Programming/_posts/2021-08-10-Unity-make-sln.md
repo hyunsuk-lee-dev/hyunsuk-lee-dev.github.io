@@ -10,7 +10,6 @@ description: >
 * toc
 {:toc .large-only}
 
-
 ### 유니티가 비쥬얼 스튜디오 솔루션을 만들어주지 않아요ㅠㅜ
 
 회사에서 새로운 PC로 바꾸느라, 새로운 PC에 유니티를 새로 설치하고, 비쥬얼 스튜디오도 새로 설치하게 되었습니다.
@@ -27,9 +26,10 @@ description: >
 
 원래는 'Open by file extension'으로 되어있는 것을 'Visual Studio'로 바꿔주시면 솔루션 및 프로젝트 파일 생성옵션이 활성화되면서 해결됩니다.
 
-![Preference](../../assets/img/post/2021-08-10-Unity-make-sln/Preference.png){:.center}
+![Preference]({{ page.asset_path }}/Preference.png){:.center}
 
-![PrefereceVs](../../assets/img/post/2021-08-10-Unity-make-sln/PrefereceVs.png){:.center}
+![PrefereceVs]({{ page.asset_path }}/PrefereceVs.png){:.center}
 
 끝!
+
 

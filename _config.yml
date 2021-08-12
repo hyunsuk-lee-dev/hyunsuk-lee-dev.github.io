@@ -137,11 +137,16 @@ defaults:
     values:
       sitemap:         false
 
+      path:            reveal.js/
+    values:
+      sitemap:         false
+
   # # You can use the following to enable comments on all posts.
   - scope:
       type:            posts
     values:
       comments:        true
+      asset_path:       true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -422,4 +427,7 @@ compress_html:
 
 sass:
   style:               compressed
+
+custom:
+  postAsset:          '/assets/img/post/'
 

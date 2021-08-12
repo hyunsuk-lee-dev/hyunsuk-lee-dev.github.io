@@ -23,14 +23,14 @@ VR은 일반적으로 프로그램이 시작되었을 때, 컨텐츠가 시작�
 
 처음 유니티를 켜고, 새로운 프로젝트를 만들어줍니다. 저는 2019.4.13 버전에, 이름은 Proximity Test라고 짓겠습니다.
 
-![Unity Project](/assets/img/post/2021-01-22-ProximitySensor/Unity Project.png "Unity Project"){:.center}
+![Unity Project]({{ page.asset_path }}/Unity Project.png "Unity Project"){:.center}
 
 프로젝트 생성하기
 {:.figcaption}
 
 프로젝트가 다 만들어지면 에셋스토어에서 SteamVR Plugin을 Import 해줍니다. 저는 글을 작성하는 1월 22일 기준, 가장 최신 버전인 2.7.2 버전을 사용했습니다. 
 
-![SteamVR Import](/assets/img/post/2021-01-22-ProximitySensor/SteamVR Import.png "SteamVR Import"){:.center}
+![SteamVR Import]({{ page.asset_path }}/SteamVR Import.png "SteamVR Import"){:.center}
 
 SteamVR Import
 {:.figcaption}
