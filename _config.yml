@@ -137,6 +137,7 @@ defaults:
     values:
       sitemap:         false
 
+  - scope:
       path:            reveal.js/
     values:
       sitemap:         false
