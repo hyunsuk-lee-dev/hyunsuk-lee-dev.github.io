@@ -30,7 +30,7 @@ description: >
 따라서 포스팅도 2개로 나누어집니다.
 
 1. [유니티에서 안드로이드 코드쓰기 1 - AAR 만들기](#)
-2. [유니티에서 안드로이드 코드쓰기 2 - 유니티에서 안드로이드 코드 사용하기 ](#){:target="_blank"}
+2. [유니티에서 안드로이드 코드쓰기 2 - 유니티에서 안드로이드 코드 사용하기 ](https://leehs27.github.io/programming/2021-08-17-UnityAndroid-2/){:target="_blank"}
 
 <br/>
 
@@ -98,7 +98,7 @@ classes.jar을 넣어야하는 위치
 
 `dependencies`아래에 `compileOnly fileTree(dir:'libs',includes: ['*.jar'])` 코드를 추가해줍니다. 그 후 상단에 **Sync Now**를 클릭해줍시다. 
 
-> 수정하는 김에 `compileSdk`와 `targetSdk`의 값도 한번 확인하는 것이 좋습니다. 이 값도 추후에 유니티에서 설정해주어야하기 때문입니다.
+> 수정하는 김에 `compileSdk`와 `targetSdk`의 값도 한번 확인하는 것이 좋습니다. 이 값도 추후에 [유니티에서 설정](https://leehs27.github.io/programming/2021-08-17-UnityAndroid-2/#빌드-세팅을-하자){:target="_blank"}해주어야하기 때문입니다.
 
 ![dependecies](../../assets/img/post/2021-08-09-UnityAndroid-1/dependecies.png)
 
@@ -155,6 +155,8 @@ public class UnityPlugin {
 ```
 
 이제 `showToast(String text)`함수를 통해 토스트 메세지를 띄울 수 있고, `getPackageName()`함수를 통해 콘텐츠의 패키지 이름을 받아올 수 있게 됩니다. 
+
+당연히 여기에 예시 코드 이외에도 각자가 필요한 코드를 자유롭게 작성해주시면 됩니다. 
 
 ### Manifest를 확인하세요.
 
