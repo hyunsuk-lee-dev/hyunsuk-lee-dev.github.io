@@ -30,7 +30,7 @@ description: >
 따라서 포스팅도 2개로 나누어집니다.
 
 1. [유니티에서 안드로이드 코드쓰기 1 - AAR 만들기](#)
-2. [유니티에서 안드로이드 코드쓰기 2 - 유니티에서 안드로이드 코드 사용하기 ](https://leehs27.github.io/programming/2021-08-17-UnityAndroid-2/){:target="_blank"}
+2. [유니티에서 안드로이드 코드쓰기 2 - 유니티에서 안드로이드 코드 사용하기](https://leehs27.github.io/programming/2021-08-17-UnityAndroid-2/){:target="_blank"}
 
 <br/>
 
