@@ -66,7 +66,7 @@ public class AndroidPlugin : MonoBehaviour
 
 그리고 빌드를 해서 실행해보면, 시작하자마자 해당 프로젝트의 패키지 이름을 토스트로 띄워주는 것을 확인하실 수 있습니다. 
 
-![PlayGif](../../assets/img/post/2021-08-17-UnityAndroid-2/play.gif){:.center}
+![PlayGif](../../assets/img/post/2021-08-17-UnityAndroid-2/Play.gif){:.center}
 
 # 코드 설명
 
