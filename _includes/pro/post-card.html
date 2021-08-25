@@ -29,6 +29,10 @@
     <div class="project-card-img aspect-ratio sixteen-nine flip-project-img">
       {% if post.image %}
         {% include_cached components/hy-img.html img=post.image alt=post.title sizes=sizes width=864 height=486 %}
+      {% elsif post.image_relative %}
+        {% capture asset_url %}{{ post.url | split: '/' | last | prepend: site.custom.postAsset }}{% endcapture %}
+        {% assign post_image = post.image_relative | prepend: asset_url %}
+        {% include_cached components/hy-img.html img=post_image alt=post.title sizes=sizes width=864 height=486 %}
       {% endif %}
     </div>
   </a>
